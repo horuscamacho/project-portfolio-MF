@@ -83,7 +83,10 @@ nav .profile-link a {
 .home-main {
     display: flex;
     flex-grow: 1;
-    background-image: url(./assets/desarrolladorMobile.png); 
+    background-image: url(./assets/coverMobile.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
 }
 
