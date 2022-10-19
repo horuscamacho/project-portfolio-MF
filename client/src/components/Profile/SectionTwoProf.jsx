@@ -1,38 +1,19 @@
 import React from "react";
+import Certifications from "./Certifications";
+
 
 const SectionTwoProf = () => {
   return (
     <section className="profile-main-proyect">
-      <div class="flex-container">
+      <div className="flex-container">
         <h3>Proyectos</h3>
-        <div class="proyects-main-container">
-          <article class="proyect-container">
-            <h4>Título</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              tempore ex minus commodi cum quibusdam. Odit sequi sit quia nemo
-              amet nulla facilis corporis. Consequuntur porro similique tenetur
-              quaerat reiciendis.
-            </p>
-          </article>
-          <article class="proyect-container">
-            <h4>Título</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              tempore ex minus commodi cum quibusdam. Odit sequi sit quia nemo
-              amet nulla facilis corporis. Consequuntur porro similique tenetur
-              quaerat reiciendis.
-            </p>
-          </article>
-          <article class="proyect-container">
-            <h4>Título</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              tempore ex minus commodi cum quibusdam. Odit sequi sit quia nemo
-              amet nulla facilis corporis. Consequuntur porro similique tenetur
-              quaerat reiciendis.
-            </p>
-          </article>
+        <div className="proyects-main-container">
+          <Certifications />
+          <Certifications />
+          <Certifications />
+          <Certifications />
+          <Certifications />
+          <Certifications />
         </div>
       </div>
     </section>
