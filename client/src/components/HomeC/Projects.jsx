@@ -2,7 +2,6 @@ import React from "react";
 
 const Projects = (projects) => {
   const {data}  = projects
-  console.log(data)
   return (
     <article className="post-container">
       <img src={data.link} alt="" />

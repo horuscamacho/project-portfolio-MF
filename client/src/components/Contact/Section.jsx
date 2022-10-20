@@ -1,34 +1,45 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 const Section = () => {
+  const [input, setInput] = useState({
+    name: "",
+    email: "",
+    message: ""
+  })
+  function handleChange(e) {
+    e.preventDefault()
+    setInput({
+      ...input,
+      [e.target.name]: e.target.value
+    })
+  }
   return (
     <section>
-        <div class="container-contact-main">
-            <div class="content">
+        <div className="container-contact-main">
+            <div className="content">
               <h2>Contacto</h2>
               <p>
                 Gracias por visitar mi espacio, si quieres ponerte en contacto
                 conmigo escríbeme.
               </p>
             </div>
-            <div class="contactForm">
-              <form>
+            <div className="contactForm">
+              <form >
                 <h2>Envíame un correo</h2>
-                <div class="inputBox">
+                <div className="inputBox">
                     <span>Nombre: </span>
-                  <input type="text" name="" required="required" />
+                  <input onChange={(e) => handleChange(e)} type="text" name="name" required="required" />
                 </div>
-                <div class="inputBox">
+                <div className="inputBox">
                     <span>Email: </span>
-                  <input type="text" name="" required="required" />
+                  <input onChange={(e) => handleChange(e)} type="email" name="email" required="required" />
                   
                 </div>
-                <div class="inputBox">
+                <div className="inputBox">
                     <span>Escribe tu mensaje aquí: </span>
-                  <textarea required="required"> </textarea>
+                  <textarea onChange={(e) => handleChange(e)} name="message" required="required" defaultValue=""></textarea>
                   
                 </div>
-                <div class="inputBox">
+                <div className="inputBox">
                   <input type="submit" name="" value="Enviar" />
                 </div>
               </form>
