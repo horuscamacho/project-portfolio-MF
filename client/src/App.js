@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import Home from "./components/HomeC/Home";
 import Profile from "./components/Profile/Profile";
 import Contact from "./components/Contact/Contact";
+import ProjectDetail from "./components/Details/ProjectDetail";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/project/:id" element={<ProjectDetail />}/>
       </Routes>
     </BrowserRouter>
   );
