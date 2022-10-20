@@ -8,7 +8,7 @@ const SectionOneProf = () => {
         <div className="profile-image-container">
           <img src={profPic} alt="" />
         </div>
-        <div>
+        <div className="profile-text-container">
           <h2>Hola!👋🏻 mi nombre es Horus Sinhue</h2>
           <p>
             Recientemente cumplí mi sueño de convertirme en desarrollador, a
