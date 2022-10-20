@@ -79,7 +79,7 @@ export const cursos = [
     },
     {
       id: 5,
-      curso: "Resp Design: Maquetación Mobile First",
+      curso: "Responsive Design: Maquetación Mobile First",
       descripcion:
         "Aprender a crear prouectos que se adaptarán a las distintas vistas que utilicen los usuarios, se analizó la arquitectura de un proyecto partiendo de un wireframe, auditado, con lighthouse. ",
       link: "https://i.postimg.cc/k42DVPv2/diploma-mobile-first-1.png",
