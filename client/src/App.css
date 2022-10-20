@@ -669,4 +669,251 @@ footer p {
         font-size: 18px;
     }
 
+    .blogs-button {
+        width: 110px;
+    }
+    .blogs-button {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+  }
+
+
+  @media (min-width: 900px) {
+    header .header-icons-container {
+        height: 100px;
+        background: #15aad0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header .header-icons-container .icons {
+        padding-right: 15px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .header-icons-container .icons span {
+        color: white;
+        font-size: 40px;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 120px;
+        margin-bottom: 0;
+    }
+    nav .nav-logo-container img {
+        width: 250px;
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+
+    nav .profile-link {
+        padding-right: 30px;
+    }
+
+    nav .profile-link a {
+        color: black;
+        border-bottom: 1px solid black;
+        font-size: 20px;
+    }
+    .home-main {
+        display: flex;
+        flex-grow: 1;
+        background-image: url(./assets/DesAROLLADOR.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-main-text {
+        font-size: 28px;
+        color: white;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+    .home-main-button {
+        width: 100px;
+        height: 40px;
+        background-color: #15aad0;
+        display: grid;
+        align-items: center;
+        border-radius: 12px;
+        border-color: black;
+    }
+    .home-main-button a {
+        font-weight: 290;
+        font-size: 20px;
+        color: black;
+    }
+
+    .blogs-main-new {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogs-main-new h3 {
+        font-size: 23px;
+    }
+
+    .blogs-news-info-container h2 {
+        font-size: 20px;
+    }
+
+    .blogs-main-new-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .blogs-news-info-container p {
+        font-size: 19px;
+    }
+
+    .blogs-main-post-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .post-container {
+        width: 25%;
+        padding: 20px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .post-container article {
+        height: inherit;
+    }
+
+    .post-container h4 {
+        font-size: 16px;
+        
+    }
+
+    .post-container .text-proyects {
+        font-size: 16px;
+    }
+
+    .contact-main-container {
+        width: 100%;
+        background-color: #cdd2da;
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .contact-main-container img{
+        width: 45px;
+    }
+    .contact-main-container a{
+        font-size: 18px;
+    }
+
+    .contact-main-container p{
+        font-size: 16px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+    .profile-text-container {
+        width: 60%;
+        padding-left: 16px;
+    }
+
+    .profile-text-container h2 {
+        font-size: 22px;
+    }
+    .profile-text-container p{
+        font-size: 16px;
+    }
+
+    .profile-main-proyect h3{
+        font-size: 21spx;
+    }
+
+    .proyects-main-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .proyect-container {
+        width: 25%;
+    }
+    .proyect-container {
+        padding: 20px;
+    }
+
+    .proyect-container h4 {
+        font-size: 20px;
+    }
+    .proyect-container p{
+        font-size: 16px;
+    }
+
+    form {
+        width: 500px;
+    }
+    .container-contact-main .content p{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .contactForm .inputBox span {
+        font-size: 21px;
+    }
+    .contactForm .inputBox input {
+        font-size: 18px;
+    }
+
+    .contactForm .inputBox textarea {
+        font-size: 18px;
+    }
+
+    .blogpost-img-container img {
+        width: 600px;
+    }
+    .blogpost-detail-container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .blogpost-detail-container p{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .blogs-button {
+        width: 100px;
+    }
+    .blogs-button {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
   }
