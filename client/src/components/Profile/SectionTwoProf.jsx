@@ -3,7 +3,6 @@ import Certifications from "./Certifications";
 import {cursos} from '../data/proyects_certificates'
 
 const SectionTwoProf = () => {
-  console.log(cursos)
   return (
     <section className="profile-main-proyect">
       <div className="flex-container">
