@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='root'>
         <Header />
-        <main className='blogs-mail'>
+        <main className='blogs-main'>
         <SectionOneHome />
         <SectionTwoHome />
         <SectionContactF />

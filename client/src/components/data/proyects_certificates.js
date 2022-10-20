@@ -37,7 +37,7 @@ export const proyectos = [
       id: 4,
       proyecto: "Portafolio Personal",
       descripcion:
-        "Mi portafolio fue desarrollado con tecnologías simples como React y Redux para el manejo de los estados de componentes, además utilice los conceptos aprendidos del Responsive Design para contruir mi maquetado de forma Mobile First",
+        "Fue desarrollado con tecnologías simples como React y Redux, está maquetado de forma Mobile First",
       link: "https://i.postimg.cc/L67XNX0R/portafolio.png",
       github: "https://github.com/horuscamacho/project-portfolio-MF",
       deploy: "",

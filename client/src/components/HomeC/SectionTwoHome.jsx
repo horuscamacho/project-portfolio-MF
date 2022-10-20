@@ -7,9 +7,11 @@ const SectionTwoHome = () => {
     <section className="blogs-posts-container">
       <div className="blogs-main-post">
         <h3>{proyectos[0]}</h3>
+        <div className="blogs-main-post-mobile">
         {proyectos[1]?.map((item) => {
           return <Projects data={item} key={item.id}/>
         })}
+        </div>
       </div>
     </section>
   );

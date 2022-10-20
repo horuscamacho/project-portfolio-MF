@@ -19,6 +19,8 @@ a {
     flex-direction: column;
 }
 
+
+
 /*C A B E C E R A    D E L   D O C U M E N T O
     C O N   B A R R A   D E   N A V E G A C I Ó N
 */
@@ -45,6 +47,7 @@ header .header-icons-container .icons {
 
 header .icons span {
     color: white;
+    font-size: 40px;
 }
 
 nav {
@@ -87,7 +90,6 @@ nav .profile-link a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
 }
 
 .home-main section {
@@ -111,10 +113,11 @@ nav .profile-link a {
     display: grid;
     align-items: center;
     border-radius: 12px;
+    border-color: black;
 }
 
 .home-main-button a {
-    font-weight: 400;
+    font-weight: 250;
     font-size: 18px;
     color: black;
 }
@@ -221,7 +224,6 @@ footer p {
 .contact-main-container {
     width: 100%;
     background-color: #cdd2da;
-
     display: flex;
     flex-direction: column;
 }
@@ -460,3 +462,211 @@ footer p {
     font-size: 18px;
     align-self: center;
   } 
+
+
+  @media (min-width: 600px) {
+    header .header-icons-container {
+        height: 100px;
+        background: #15aad0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header .header-icons-container .icons {
+        padding-right: 15px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .header-icons-container .icons span {
+        color: white;
+        font-size: 50px;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 120px;
+        margin-bottom: 0;
+    }
+    nav .nav-logo-container img {
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    nav .profile-link a {
+        color: black;
+        border-bottom: 1px solid black;
+        font-size: 22px;
+    }
+    .home-main {
+        display: flex;
+        flex-grow: 1;
+        background-image: url(./assets/coverMobile.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-main-text {
+        font-size: 28px;
+        color: white;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+    .home-main-button {
+        width: 100px;
+        height: 40px;
+        background-color: #15aad0;
+        display: grid;
+        align-items: center;
+        border-radius: 12px;
+        border-color: black;
+    }
+    .home-main-button a {
+        font-weight: 290;
+        font-size: 20px;
+        color: black;
+    }
+
+    .blogs-main-new {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogs-main-new h3 {
+        font-size: 23px;
+    }
+
+    .blogs-main-new-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .blogs-news-info-container p {
+        font-size: 18px;
+    }
+
+    .blogs-main-post-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .post-container {
+        width: 40%;
+        padding: 20px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: end;
+        justify-content: space-between;
+    }
+
+    .post-container h4 {
+        font-size: 21px;
+    }
+
+    .post-container .text-proyects {
+        font-size: 18px;
+    }
+
+    .contact-main-container {
+        width: 100%;
+        background-color: #cdd2da;
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .contact-main-container a{
+        font-size: 18px;
+    }
+
+    .contact-main-container p{
+        font-size: 16px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-image-container {
+        width: 40%;
+    }
+
+    
+    .profile-text-container {
+        padding-left: 16px;
+    }
+
+    .profile-text-container h2 {
+        font-size: 22px;
+    }
+    .profile-text-container p{
+        font-size: 18px;
+    }
+
+    .profile-main-proyect h3{
+        font-size: 21spx;
+    }
+
+    .proyects-main-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .proyect-container {
+        width: 40%;
+    }
+    .proyect-container {
+        padding: 20px;
+    }
+
+    .proyect-container h4 {
+        font-size: 20px;
+    }
+    .proyect-container p{
+        font-size: 16px;
+    }
+
+    form {
+        width: 500px;
+    }
+    .container-contact-main .content p{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .contactForm .inputBox span {
+        font-size: 21px;
+    }
+    .contactForm .inputBox input {
+        font-size: 18px;
+    }
+
+    .contactForm .inputBox textarea {
+        font-size: 18px;
+    }
+
+  }

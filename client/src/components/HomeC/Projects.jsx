@@ -6,7 +6,7 @@ const Projects = (projects) => {
   return (
     <article className="post-container">
       <img src={data.link} alt="" />
-      <p>{data.proyecto}</p>
+      <h4>{data.proyecto}</h4>
       <p className="text-proyects">
         {data.descripcion}
       </p>

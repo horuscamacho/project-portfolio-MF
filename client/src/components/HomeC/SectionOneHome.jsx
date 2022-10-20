@@ -6,6 +6,7 @@ const SectionOneHome = () => {
     <section className="blogs-news-container">
       <div className="blogs-main-new">
         <h3>Bienvenido a mi portafolio</h3>
+        <div className="blogs-main-new-mobile">
         <div className="blogs-news-img-container">
           <img src={mainPic} alt="" />
         </div>
@@ -18,6 +19,8 @@ const SectionOneHome = () => {
             otras..
           </p>
         </div>
+        </div>
+        
       </div>
     </section>
   );
