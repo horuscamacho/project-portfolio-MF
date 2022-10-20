@@ -377,6 +377,11 @@ footer p {
     justify-content: center;
 }
 
+.blogpost-detail-container {
+    width: auto;
+    padding: 25px;
+    margin-bottom: 60px;
+}
 
 .container-contact-main {
     display: flex;
