@@ -1,18 +1,19 @@
 import React from "react";
-import imagn from "../../assets/post-1.png";
-const Projects = () => {
+
+const Projects = (projects) => {
+  const {data}  = projects
+  console.log(data)
   return (
-    <aticle className="post-container">
-      <img src={imagn} alt="" />
-      <p>Titulo del blog post</p>
+    <article className="post-container">
+      <img src={data.link} alt="" />
+      <p>{data.proyecto}</p>
       <p className="text-proyects">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil placeat
-        velit ducimus sunt cupiditate.
+        {data.descripcion}
       </p>
       <a className="blogs-button" href="/">
         Leer más
       </a>
-    </aticle>
+    </article>
   );
 };
 

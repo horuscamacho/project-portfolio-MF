@@ -5,6 +5,7 @@ import Header from '../Header/Header'
 import SectionOneHome from './SectionOneHome'
 import SectionTwoHome from './SectionTwoHome'
 
+
 const Home = () => {
   return (
     <div className='root'>

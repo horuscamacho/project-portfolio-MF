@@ -330,6 +330,11 @@ footer p {
     align-items: center;
 }
 
+.proyect-container img {
+    width: 80%;
+    border-radius: 12px;
+}
+
 .proyect-container h4 {
     font-size: 14px;
 }
