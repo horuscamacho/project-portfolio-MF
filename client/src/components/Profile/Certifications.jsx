@@ -1,14 +1,13 @@
 import React from "react";
 
-const Certifications = () => {
+const Certifications = (cursos) => {
+  const {data} = cursos
   return (
     <article className="proyect-container">
-      <h4>Título</h4>
+      <img src={data.link} alt=""/>
+      <h4>{data.curso}</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, tempore
-        ex minus commodi cum quibusdam. Odit sequi sit quia nemo amet nulla
-        facilis corporis. Consequuntur porro similique tenetur quaerat
-        reiciendis.
+        {data.descripcion}
       </p>
     </article>
   );
