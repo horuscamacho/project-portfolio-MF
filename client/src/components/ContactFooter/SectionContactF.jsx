@@ -1,6 +1,7 @@
 import React from "react";
 import email from "../../assets/email.png"
 import cv from '../../assets/cv.png'
+import curriculum from './CVHORUS.pdf'
 
 const SectionContactF = () => {
   return (
@@ -15,7 +16,7 @@ const SectionContactF = () => {
       <div className="contact-right-container">
         <img src={cv} alt="" />
         <div className="contact-right">
-          <a href="/">Currículum</a>
+          <a href={curriculum} download="Curriculum Horus.pdf">Currículum</a>
           <p>Descarga mi Currículum.</p>
         </div>
       </div>
