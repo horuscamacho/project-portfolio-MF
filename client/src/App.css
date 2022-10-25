@@ -696,9 +696,9 @@ footer p {
         align-items: center;
     }
 
-    header .header-icons-container .icons span {
+    header .header-icons-container .icons i {
         color: white;
-        font-size: 40px;
+        font-size: 38px;
     }
     nav {
         display: flex;
