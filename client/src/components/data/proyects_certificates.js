@@ -31,7 +31,8 @@ export const proyectos = [
       link: "https://i.postimg.cc/CLXwLrvK/Disen-o-sin-ti-tulo-2.png",
       github: "https://github.com/horuscamacho/responsive-design-product",
       deploy: "",
-      details: "Una de las principales ventajas del Mobile First es su escalabilidad, es decir, se puede ir adaptando a las necesidades de los usuarios y crecer en función de las posibilidades de la empresa en cuanto a tiempo de respuesta de servicio o abastecimiento. Es por eso que a través del curso 'Responsive Design Product' en la plataforma de platzi, construí y maquete una página estática de forma responsiva para entender el funcionamiento de los breakpoints y además utilizamos como guía de maquetación elementos contenidos en la plataforma Figma."
+      details:
+        "Una de las principales ventajas del Mobile First es su escalabilidad, es decir, se puede ir adaptando a las necesidades de los usuarios y crecer en función de las posibilidades de la empresa en cuanto a tiempo de respuesta de servicio o abastecimiento. Es por eso que a través del curso 'Responsive Design Product' en la plataforma de platzi, construí y maquete una página estática de forma responsiva para entender el funcionamiento de los breakpoints y además utilizamos como guía de maquetación elementos contenidos en la plataforma Figma.",
     },
     {
       id: 4,
@@ -41,8 +42,9 @@ export const proyectos = [
       link: "https://i.postimg.cc/L67XNX0R/portafolio.png",
       github: "https://github.com/horuscamacho/project-portfolio-MF",
       deploy: "",
-      details: "Para el desarrollo de mi portafolio, modularice mis componentes y utilice CSS puro principalmente con flexbox para lograr que mi portafolio sea responsivo, cree 3 breakpoints diferentes que servirán para el correcto renderizado dependiendo el tamaño de la pantalla. Además integré un formulario de contacto que se conectara al back para poder enviarme una notificación cuando quieran ponerse en contacto conmigo. La intención es poder escalar el proyecto para poder generar una base de datos y poder generar de forma automática desde un formulario la creación de nuevos proyectos y cursos que serán renderizados en las secciones correspondientes de mi proyecto."
-    }
+      details:
+        "Para el desarrollo de mi portafolio, modularice mis componentes y utilice CSS puro principalmente con flexbox para lograr que mi portafolio sea responsivo, cree 3 breakpoints diferentes que servirán para el correcto renderizado dependiendo el tamaño de la pantalla. Además integré un formulario de contacto que se conectara al back para poder enviarme una notificación cuando quieran ponerse en contacto conmigo. La intención es poder escalar el proyecto para poder generar una base de datos y poder generar de forma automática desde un formulario la creación de nuevos proyectos y cursos que serán renderizados en las secciones correspondientes de mi proyecto.",
+    },
   ],
 ];
 
@@ -84,6 +86,12 @@ export const cursos = [
         "Aprender a crear prouectos que se adaptarán a las distintas vistas que utilicen los usuarios, se analizó la arquitectura de un proyecto partiendo de un wireframe, auditado, con lighthouse. ",
       link: "https://i.postimg.cc/k42DVPv2/diploma-mobile-first-1.png",
     },
-    
+    {
+      id: 6,
+      curso: "Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
+      descripcion:
+        "Aprender onceptos fundamentales de la programación como el sistema binario, tablas de verdad y operadores lógicos. Crear diagramas de flujo para resolver problemas de código. ",
+      link: "https://i.postimg.cc/Hkq4Nhr8/diploma-pensamiento-logico.png",
+    },
   ],
 ];
