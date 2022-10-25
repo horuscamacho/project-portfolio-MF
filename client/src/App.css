@@ -386,6 +386,12 @@ footer p {
     margin-bottom: 60px;
 }
 
+.blogpost-detail-container i {
+    font-size: 35px;
+    color: #15aad0;
+    margin: 10px;
+}
+
 .container-contact-main {
     display: flex;
     flex-direction: column;

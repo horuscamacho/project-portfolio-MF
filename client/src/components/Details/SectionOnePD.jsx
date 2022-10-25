@@ -20,7 +20,9 @@ const SectionOnePD = () => {
           </div>
           <article className="blogpost-detail-container">
             <p>{project[0].details}</p>
+            <div><a href={project.deploy}><i className="flaticon-001-website" /></a> <a href={project.github}><i className="flaticon-002-github"/></a> </div>
           </article>
+          
         </div>
       </section>
     </>

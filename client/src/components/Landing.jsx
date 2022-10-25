@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from './Header/Header'
-import './font/flaticon_mycollection.css'
 import LandingMain from './Landing/LandingMain'
-
+import './font/flaticon_648d47e68423808a6c7f.css'
 
 const Landing = () => {
   return (

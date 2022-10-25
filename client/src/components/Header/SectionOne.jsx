@@ -5,10 +5,10 @@ const SectionOne = () => {
     <section className="header-icons-container">
       <div className="icons">
         <a href="https://github.com/horuscamacho">
-          <i className="flaticon-002-github"></i>
+          <i className="flaticon-004-github-1"></i>
         </a>
         <a href="https://www.linkedin.com/in/horuscamacho/">
-          <i className="flaticon-001-linkedin"></i>
+          <i className="flaticon-003-linkedin"></i>
         </a>
       </div>
     </section>
