@@ -1,0 +1,33 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?94cd3e53f3341c16e28581f0a913cc47") format("truetype"),
+url("./flaticon_mycollection.woff?94cd3e53f3341c16e28581f0a913cc47") format("woff"),
+url("./flaticon_mycollection.woff2?94cd3e53f3341c16e28581f0a913cc47") format("woff2"),
+url("./flaticon_mycollection.eot?94cd3e53f3341c16e28581f0a913cc47#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?94cd3e53f3341c16e28581f0a913cc47#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "001-linkedin": "\f101",
+    "002-github": "\f102",
+);
+
+.flaticon-001-linkedin:before {
+    content: map-get($flaticon_mycollection-map, "001-linkedin");
+}
+.flaticon-002-github:before {
+    content: map-get($flaticon_mycollection-map, "002-github");
+}

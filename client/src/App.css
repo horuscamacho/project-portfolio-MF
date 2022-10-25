@@ -43,11 +43,12 @@ header .header-icons-container {
 
 header .header-icons-container .icons {
     padding-right: 15px;
+    margin-top: 7px;
 }
 
-header .icons span {
+header .icons i {
     color: white;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 nav {

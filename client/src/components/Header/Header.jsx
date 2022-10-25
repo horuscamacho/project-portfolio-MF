@@ -1,8 +1,7 @@
 import React from 'react'
 import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'
-import '../font/flaticon.css'
-import '../font/flaticon.css'
+import '../font/flaticon_mycollection.css'
 
 const Header = () => {
   return (
