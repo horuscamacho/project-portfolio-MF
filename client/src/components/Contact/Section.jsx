@@ -1,17 +1,31 @@
 import React, { useState } from 'react'
+import emailjs from '@emailjs/browser';
+
+// require("dotenv").config();
+// const {SERVICE_ID, PRIVATE_KEY, PUBLIC_KEY} = process.env
+
 const Section = () => {
-  const [input, setInput] = useState({
-    name: "",
-    email: "",
-    message: ""
-  })
-  function handleChange(e) {
-    e.preventDefault()
-    setInput({
-      ...input,
-      [e.target.name]: e.target.value
-    })
-  }
+  // console.log(SERVICE_ID)
+
+
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('service_4hhpz8n', 'template_38aaco5', form.current, 'xyD7w-rVqLsTDi5Ml')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // };
+
+
+
+ 
+
+
+
   return (
     <section>
         <div className="container-contact-main">
@@ -27,16 +41,16 @@ const Section = () => {
                 <h2>Envíame un correo</h2>
                 <div className="inputBox">
                     <span>Nombre: </span>
-                  <input onChange={(e) => handleChange(e)} type="text" name="name" required="required" />
+                  <input  type="text" name="name" required="required" />
                 </div>
                 <div className="inputBox">
                     <span>Email: </span>
-                  <input onChange={(e) => handleChange(e)} type="email" name="email" required="required" />
+                  <input  type="email" name="email" required="required" />
                   
                 </div>
                 <div className="inputBox">
                     <span>Escribe tu mensaje aquí: </span>
-                  <textarea onChange={(e) => handleChange(e)} name="message" required="required" defaultValue=""></textarea>
+                  <textarea  name="message" required="required" defaultValue=""></textarea>
                   
                 </div>
                 <div className="inputBox">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header/Header'
-import './HeardeCSS/flaticon.css'
+import './font/flaticon_mycollection.css'
 import LandingMain from './Landing/LandingMain'
 
 
