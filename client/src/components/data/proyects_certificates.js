@@ -95,7 +95,7 @@ export const cursos = [
     },
     {
       id: 7,
-      curso: "Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
+      curso: "Curso de Introducción a React Native",
       descripcion:
         "Aprender React Native para desarrollar apps nativas en iOS y Android! Construir aplicaciones móviles con JavaScript y React.js completamente multiplataforma ",
       link: "https://i.postimg.cc/Kj2949pj/diploma-react-native.png",
