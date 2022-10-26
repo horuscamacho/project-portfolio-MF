@@ -90,8 +90,15 @@ export const cursos = [
       id: 6,
       curso: "Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
       descripcion:
-        "Aprender onceptos fundamentales de la programación como el sistema binario, tablas de verdad y operadores lógicos. Crear diagramas de flujo para resolver problemas de código. ",
+        "Aprender conceptos fundamentales de la programación como el sistema binario, tablas de verdad y operadores lógicos. Crear diagramas de flujo para resolver problemas de código. ",
       link: "https://i.postimg.cc/Hkq4Nhr8/diploma-pensamiento-logico.png",
+    },
+    {
+      id: 7,
+      curso: "Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
+      descripcion:
+        "Aprender React Native para desarrollar apps nativas en iOS y Android! Construir aplicaciones móviles con JavaScript y React.js completamente multiplataforma ",
+      link: "https://i.postimg.cc/Kj2949pj/diploma-react-native.png",
     },
   ],
 ];
