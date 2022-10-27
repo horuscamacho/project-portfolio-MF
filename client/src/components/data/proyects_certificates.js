@@ -100,5 +100,12 @@ export const cursos = [
         "Aprender React Native para desarrollar apps nativas en iOS y Android! Construir aplicaciones móviles con JavaScript y React.js completamente multiplataforma ",
       link: "https://i.postimg.cc/Kj2949pj/diploma-react-native.png",
     },
+    {
+      id: 8,
+      curso: "Curso de React Native: Manejo de Listas y Consumo de APIs",
+      descripcion:
+        "Aprender a manejar listas y consumir APIs en React Native! Desarrollando componentes de pantallas y navegación de la aplicación. Creando estilos con StyleSheet, renderizando FlatLists y mucho más.",
+      link: "https://i.postimg.cc/pVhSZN19/diploma-react-native-listas-apis.png",
+    }
   ],
 ];
