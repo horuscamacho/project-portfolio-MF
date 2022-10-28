@@ -45,6 +45,17 @@ export const proyectos = [
       details:
         "Para el desarrollo de mi portafolio, modularice mis componentes y utilice CSS puro principalmente con flexbox para lograr que mi portafolio sea responsivo, cree 3 breakpoints diferentes que servirán para el correcto renderizado dependiendo el tamaño de la pantalla. Además integré un formulario de contacto que se conectara al back para poder enviarme una notificación cuando quieran ponerse en contacto conmigo. La intención es poder escalar el proyecto para poder generar una base de datos y poder generar de forma automática desde un formulario la creación de nuevos proyectos y cursos que serán renderizados en las secciones correspondientes de mi proyecto.",
     },
+    {
+      id: 5,
+      proyecto: "POKEDEX en React-Native",
+      descripcion:
+        "Aplicación para móviles desarrollada con React-Native que hace peticiones a la API de Pokemon.",
+      link: "https://i.postimg.cc/BQGG61ZJ/POKEDEX.png",
+      github: "https://github.com/horuscamacho/pokemon-Mobile",
+      deploy: "",
+      details:
+        "Para practicar el curso de React native realice una aplicación móvil haciendo peticiones a la API de pokemon, en la aplicación hice la simulación del loggin al no realizar un backend de registro, sin embargo en la aplicación si hay un sistema de Login para poder agregar pokemons a favoritos.",
+    },
   ],
 ];
 
