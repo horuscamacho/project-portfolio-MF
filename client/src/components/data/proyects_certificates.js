@@ -117,6 +117,12 @@ export const cursos = [
       descripcion:
         "Aprender a manejar listas y consumir APIs en React Native! Desarrollando componentes de pantallas y navegación de la aplicación. Creando estilos con StyleSheet, renderizando FlatLists y mucho más.",
       link: "https://i.postimg.cc/pVhSZN19/diploma-react-native-listas-apis.png",
+    },
+    {
+      id:9,
+      curso: "Curso de React Native: Formularios, Almacenamiento y Deploy",
+      descripcion: "Aprender a trabajar con formularios, almacenamiento loca, y deploy en React Native! Con el uso de Yup y Formik para el manejo de las validaciones y el estado del formulario",
+      link: "https://i.postimg.cc/y8NmgNfr/diploma-react-native-formularios-almacenamiento.png"
     }
   ],
 ];
