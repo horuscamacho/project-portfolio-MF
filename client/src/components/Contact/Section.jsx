@@ -1,29 +1,47 @@
-import React, { useState } from 'react'
-import emailjs from '@emailjs/browser';
+import React from 'react'
+import * as yup from 'yup'
+import { useFormik } from 'formik'
+import { useState } from 'react'
+import { useEffect } from 'react'
+import axios from 'axios'
 
 // require("dotenv").config();
 // const {SERVICE_ID, PRIVATE_KEY, PUBLIC_KEY} = process.env
 
 const Section = () => {
-  // console.log(SERVICE_ID)
 
+  const [email, setEmail] = useState("Hola")
+  
+  useEffect(() => {
 
+  },[email])
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = async (data, res, req) => {
+    try {
+      await axios.post("https://horus-portafolio.onrender.com/email", data)
+      return 
+    } catch (error) {
+      return
+    }
+  }
 
-  //   emailjs.sendForm('service_4hhpz8n', 'template_38aaco5', form.current, 'xyD7w-rVqLsTDi5Ml')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
-
-
-
- 
-
+  const formik = useFormik({
+    initialValues: {
+      email: '',
+      name: '',
+      "message": ''
+    },
+    validationSchema: yup.object({
+      name: yup.string().required(),
+      email: yup.string().email().required(),
+      message: yup.string().required()
+    }),
+    onSubmit: (formData) => {
+     setEmail(formData)
+     sendEmail(email)
+    formik.handleReset()
+    }
+  })
 
 
   return (
@@ -37,24 +55,24 @@ const Section = () => {
               </p>
             </div>
             <div className="contactForm">
-              <form >
+              <form onSubmit={formik.handleSubmit} >
                 <h2>Envíame un correo</h2>
                 <div className="inputBox">
                     <span>Nombre: </span>
-                  <input  type="text" name="name" required="required" />
+                  <input type="text" name="name" onChange={formik.handleChange} value={formik.values.name} placeholder="Tu nombre" />
                 </div>
                 <div className="inputBox">
                     <span>Email: </span>
-                  <input  type="email" name="email" required="required" />
+                  <input  type="text" name="email" onChange={formik.handleChange} value={formik.values.email} placeholder="example@example.com"/>
                   
                 </div>
                 <div className="inputBox">
                     <span>Escribe tu mensaje aquí: </span>
-                  <textarea  name="message" required="required" defaultValue=""></textarea>
+                  <textarea type='text' name="message" onChange={formik.handleChange} value={formik.values.message} placeholder="Tu mensaje quí"></textarea>
                   
                 </div>
                 <div className="inputBox">
-                  <input type="submit" name="" value="Enviar" />
+                  <input type="submit" name="submit" value="Enviar" />
                 </div>
               </form>
             </div>
