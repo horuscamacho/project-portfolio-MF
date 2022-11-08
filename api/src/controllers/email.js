@@ -34,7 +34,7 @@ const sendEmail = async (req, res, next) => {
 
 const enElServidor = async (req, res, next) => {
   try {
-    console.log("Ya entraste al servidor");
+    res.send("Listo")
   } catch (error) {
     console.log("no lograste entrar al servidor");
   }
