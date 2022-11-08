@@ -26,7 +26,7 @@ const sendEmail = async (req, res, next) => {
 
   try {
     const info = await transporter.sendMail(mailOptions);
-    console.log("Correo enviado satisfactoriamente");
+    res.status(200).send("Correo enviado correctamente")
   } catch (error) {
     console.log(error.message);
   }

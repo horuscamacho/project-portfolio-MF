@@ -13,11 +13,13 @@
     "axios": "^1.1.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "formik": "^2.2.9",
     "nodemailer": "^6.8.0",
     "nodemailer-express-handlebars": "^5.0.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "yup": "^0.32.11"
   },
   "engines": {
     "node": "16.17.1"
-}
+  }
 }
