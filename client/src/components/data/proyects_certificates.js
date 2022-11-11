@@ -50,7 +50,7 @@ export const proyectos = [
       proyecto: "POKEDEX en React-Native",
       descripcion:
         "Aplicación para móviles desarrollada con React-Native que hace peticiones a la API de Pokemon.",
-      link: "https://i.postimg.cc/BQGG61ZJ/POKEDEX.png",
+      link: "https://i.postimg.cc/yY0XycBn/Captura-de-pantalla-2022-11-10-a-la-s-18-08-38.png",
       github: "https://github.com/horuscamacho/pokemon-Mobile",
       deploy: "",
       details:
